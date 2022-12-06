@@ -1,6 +1,7 @@
 * {
-    margin:0;
-    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,9 +9,47 @@
     color: white;
     background-color: #5995DA;
     padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
-    border: 1px solid white;
+    /* border: 1px solid white;  debuggind */
     width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.menu>div {
+    margin: 0 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*  
+.header>div {
+    border: 1px solid white; debuggind
+}
+ */
