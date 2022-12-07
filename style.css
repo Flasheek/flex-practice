@@ -20,17 +20,12 @@
     justify-content: space-between;
 }
 
-.menu>div {
-    margin: 0 10px;
+.signup {
+    margin-left: auto;
 }
 
-.links {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.login {
-    margin-left: 20px;
+.date, .login {
+    margin: 0 20px;
 }
 
 .header-container {
@@ -68,7 +63,6 @@
     width: 250px;
     height: 250px;
 }
-
 
 .photo-grid-item:first-of-type {
     order: 1;
