@@ -82,3 +82,34 @@
     align-self: flex-end;
     margin-bottom: 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+    margin: auto 10px;
+    min-width: 100px;
+}
+
+.footer-item:first-of-type {
+    margin-left: 20px;
+}
+
+.footer-item:last-of-type {
+    margin-right: 20px;
+}
+
+.footer-one, .footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
+
+.footer-two {
+    flex: 2;
+}
